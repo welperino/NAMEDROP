@@ -41,7 +41,7 @@
 
 .grid{
     width: 90%;
-    min-height: 330px;
+    min-height: 170px;
     max-height: 90%;
     margin: auto;
     display: flex;
