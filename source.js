@@ -27,3 +27,8 @@ input.addEventListener("keydown", function (event) {
     btn.click();
   }
 });
+
+
+document.addEventListener("click",".delButton", function(){
+  alert(1);
+})

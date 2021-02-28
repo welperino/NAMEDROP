@@ -14,7 +14,7 @@
 
 #text{
     min-width: 40%;
-    height: 30px;
+    height: 35px;
     border: 2px solid black;
     border-radius: 5px;
     font-size: 24px;
@@ -28,15 +28,28 @@
     border: 2px solid black;
     border-radius: 5px;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
     margin: 5px;
+    background-color: #D43615;
+    transition: all 0.2s;
 }
+
+#button:hover{
+    font-size: 22px;
+}
+
+#button:active{
+    font-size: 23px;
+}
+
+#button{cursor: pointer;}
 
 #title{
     text-align: center;
     font-size: 48pt;
     margin-top: 50px;
+    color: black;
 }
 
 .grid{
@@ -70,19 +83,36 @@
 }
 
 .delButton{
-    width: 25px;
-    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
     background-color: #D43615;
     text-align: center;
     border: 2px solid black;
     border-radius: 100px;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     float: right;
     vertical-align: middle;
     margin-right: -10px;
-
+    transition: all 0.3s;
+    outline: none;
+    vertical-align: center;
 }
+
+.delButton:hover{
+    font-size: 18px;
+    outline: none;
+}
+
+.delButton:active{
+    font-size: 20px;
+    outline: none;
+}
+
+.delButton{cursor: pointer;}
+
 
 p{
 
@@ -91,3 +121,8 @@ p{
     white-space: pre-wrap;
 }
 
+#dot{
+    position: absolute;
+    top: 50px;
+    color: #D43615;
+}
